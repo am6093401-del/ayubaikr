@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayubaikr - Solar System with Gold</title>
+  <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="loginPage">
+    <h1>Ayubaikr</h1>
+    <h2>Solar  System with Gold</h2>
+    <button onclick="loginWithPi()">Login with Pi paid with pi</button>
+  </div>
+
+  <div class="container dashboard" id="dashboard" style="display:none;">
+    <header>
+      <h1>Ayubaikr Admin Dashboard</h1>
+      <button onclick="logout()">Logout</button>
+    </header>
+
+    <section>
+      <h3>Send Solar / Gold Payment</h3>
+      <input type="text" id="recipient" placeholder="Employee Pi Address">
+      <input type="number" id="amount" value="100" placeholder="Amount (Test Pi / Gold)">
+      <button onclick="sendSolar()">Send Payment</button>
+    </section>
+
+    <section>
+      <h3>Gallery</h3>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section>
+      <h3>Recent Transactions</h3>
+      <ul id="txList"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
