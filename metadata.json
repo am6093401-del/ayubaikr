@@ -1,1 +1,7 @@
 
+{
+  "name": "ayubaikr",
+  "description": "ayubaikr Phones & Accessories Business Ltd - Store, Admin Dashboard, Multi-Vendor Management, and Pi Testnet A2U/U2A Payment Verification Suite",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
